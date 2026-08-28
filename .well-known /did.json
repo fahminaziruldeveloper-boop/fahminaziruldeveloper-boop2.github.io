@@ -1,0 +1,15 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1"
+  ],
+  "id": "did:web:fahminaziruldeveloper-boop.github.io",
+  "verificationMethod": [{
+    "id": "did:web:fahminaziruldeveloper-boop.github.io#key-1",
+    "type": "Multikey",
+    "controller": "did:web:fahminaziruldeveloper-boop.github.io",
+    "publicKeyMultibase": "zDnaeRE7Cr9baJf9r6yhF6arFs6afuuGG4GE5tnQGtt3krkTL"
+  }],
+  "assertionMethod": ["did:web:fahminaziruldeveloper-boop.github.io#key-1"],
+  "authentication": ["did:web:fahminaziruldeveloper-boop.github.io#key-1"]
+}
